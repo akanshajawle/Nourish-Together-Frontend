@@ -30,7 +30,7 @@ import SDG2Image from "../assets/SDG2.jpg";
 import SDG3Image from "../assets/SGD3.jpg";
 import SDG12Image from "../assets/SDG12.jpg";
 import SDG13Image from "../assets/SDG13.jpg";
-import StepsImage from "../assets/steps.png";
+import StepsImage from "../assets/Steps.png";
 
 const Home = () => {
   const { user } = useAuth();
