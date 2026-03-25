@@ -136,21 +136,21 @@ const Home = () => {
               fight hunger and reduce food waste.
             </p>
 
-            <div className="space-x-4" data-aos="fade-up" data-aos-delay="600">
-              <Link
-                to={user ? "/donor-dashboard" : "/login?redirect=donor-dashboard"}
-                className="bg-white text-green-600 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100"
-              >
-                Donate Food
-              </Link>
+           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center" data-aos="fade-up" data-aos-delay="600">
+  <Link
+    to={user ? "/donor-dashboard" : "/login?redirect=donor-dashboard"}
+    className="bg-white text-green-600 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 w-full sm:w-auto text-center"
+  >
+    Donate Food
+  </Link>
 
-              <Link
-                to={user ? "/payment" : "/login?redirect=payment"}
-                className="bg-orange-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-orange-700"
-              >
-                Donate Money
-              </Link>
-            </div>
+  <Link
+    to={user ? "/payment" : "/login?redirect=payment"}
+    className="bg-orange-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-orange-700 w-full sm:w-auto text-center"
+  >
+    Donate Money
+  </Link>
+</div>
           </div>
         </section>
       </div>
